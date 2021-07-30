@@ -67,9 +67,15 @@
                     <pre data-src="/js/site.js" class="line-numbers"></pre>
                 </div>
                 <div class="col-lg-4">
-                    <p>The Code is structured in one function.</p>
-                    <h5>Hello World</h5>
-                    <p>Hello World is a function that displays an alert with a message of "Hello World".</p>
+                    <p>The Code is structured in three functions.</p>
+                    <h5 class="pb-2 border-bottom border-2">getString()</h5>
+                    <p>The <strong>getString()</strong> function is responsible for retrieving the string the user provides in the input field. It will then pass the string to the <strong>reverseString()</strong> function and call the <strong>displayNumbers()</strong> function, which are described below.</p>
+                    <br>
+                    <h5 class="pb-2 border-bottom border-2">reverseString()</h5>
+                    <p>The <strong>reverseString()</strong> function takes one parameter which is the string to reverse. It splits the string into an array of its individual characters. This array is then reversed and joined to form a string once again. The final string is returned.</p>
+                    <br>
+                    <h5 class="pb-2 border-bottom border-2">displayString()</h5>
+                    <p>The <strong>displayString()</strong> function takes one parameter which is the string to display. The string is added to the .innerHTML property of the &lt;p> tag that holds the message. Finally the alert card is made visible.</p>
                 </div>
             </div>
         </div>
